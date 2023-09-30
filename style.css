@@ -1,0 +1,510 @@
+
+*{
+    margin:0;
+    padding: 0;
+    
+}
+body{
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'SamsungSharpSans',arial,sans-serif;
+    background:#f4f4f4 ;
+    
+}
+
+/* Nav bar */
+
+.nav-bar{
+    width: 100%;
+    height: 56px; 
+    display: inline-flex;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    justify-content: space-between;
+    
+      
+}
+.nav-bar .navdetailsL{
+    width: 70%;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-bar .navdetailsL .logo{
+    width:15%;
+    height: 60%;
+      
+}
+
+.nav-bar .navdetailsL .logo img{
+    padding: 5px 30px;
+    width: 120px;
+    cursor: pointer;
+}
+.nav-bar .navdetailsL .navitems{
+    padding-left: 30px;
+    width:90%;
+    height: 60%;
+   
+}
+
+.nav-bar .navdetailsL .navitems ul{
+    font-weight: 550;
+    display: inline-flex;
+    font-size: .9em;
+    margin-left: 20px;
+    list-style: none;
+    cursor: pointer;
+}
+.nav-bar .navitems ul li{
+
+    padding: 12px 12px;
+}
+.nav-bar .navdetailsR{
+    width: 30%;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-bar .navdetailsR .navitems2{
+    width:50%;
+    height: 60%;
+    
+}
+
+.nav-bar .navdetailsR .navitems2 ul {
+    display: inline-flex;
+    font-weight: 550;
+    font-size: .9em;
+    padding-left: 15px;
+    list-style: none;
+    cursor: pointer;
+}
+.nav-bar .navdetailsR .navitems2 ul li{
+    padding: 10px 11px;
+}
+
+.nav-bar .navdetailsR .icons{
+    width:50%;
+    height: 60%;
+    padding: 5px;
+    
+}
+.nav-bar .navdetailsR .icons ul{
+    display: inline-flex;
+    font-size: .95em;
+    padding-left: 30px;
+    list-style: none;
+    cursor: pointer;
+    right: 1%;
+}
+
+.nav-bar .navdetailsR .icons ul li{
+    padding: 5px 15px;
+    font-size: 1.5em;
+    
+}
+/* Hover  */
+.logo img:hover{
+    opacity: .5;
+
+}
+
+.nav-bar li:hover{
+    color:rgb(255, 255, 255);
+    background: black;
+    border-radius: 20px;
+}
+
+.section1 {
+    width: 100%;
+    height: 700px;
+    background: #f4f4f4;
+    
+}
+
+.section1 .home{
+    width: 100%;
+    height: 100%;
+    padding:0px 20px;
+}
+.section1 .home video{
+    width:100%;
+    position: absolute;
+}
+
+.section1 .home .desc{
+    display:block;
+    position: absolute;
+    width: 50%;
+    left:10%;
+    bottom: 40%;
+   
+    align-items: center;  
+}
+.section1 .home .desc h2{
+    line-height: 1.2;
+    font-weight: bold;
+    word-wrap: break-word;
+    font-size: 49px;
+}
+.section1 .home .desc p{
+    margin: 24px;
+    font-size: 18px;
+    line-height: 1.33;
+    word-wrap: break-word;
+}
+
+/* Section 2 */
+.section2{
+    width: 100%;
+    height:750px;
+    padding:20px;
+}
+.nav2{
+    display: flex;
+    width:100%;
+    height:56px;
+    align-items: center;
+    justify-content: center;
+}
+.nav2 h2{
+    position: relative;
+    font-size: 45px;
+    line-height: 1.33;
+    font-weight: bold;
+    padding-bottom: 15px;
+    
+}
+
+.section2 .highlight{
+    display:flex;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 650px;
+    padding: 10px;
+    justify-content:center;
+    
+}
+
+.section2 .highlight .card1{
+    width: 650px;
+    height: 650px;
+    float: left;
+    margin: 10px;
+    align-items: center;
+    
+   
+}
+.section2 .highlight .card1 img{
+    width:100%;
+    height:100%;
+    border-radius: 20px;
+   
+}
+.card1 .desc1{
+    position:absolute;
+    align-items: center;
+    bottom:15%;
+    left:20%;
+}
+
+.section2 .highlight .card2{
+    width:650px;
+    height:650px;
+    padding-left: 10px;
+    float: right;
+    margin: 10px;
+  
+}
+.section2 .highlight .card2 .row{
+    display: inline-flex;
+    width:100%;
+    height: 49%;
+}
+.section2 .highlight .card2 .row .card{
+    
+    width:50%;
+    height: 100%;
+    margin: 5px;
+    background: rgb(218, 218, 218);
+    border-radius: 20px;
+}
+.section2 .highlight .card2 .row .cardb{
+    
+    width:50%;
+    height: 100%;
+    margin: 5px;
+    background: rgb(207, 237, 238);
+    border-radius: 20px;
+}
+.section2 .highlight .card2 .row img{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+
+.desc0{
+    position: absolute;
+    bottom: 12%;
+    left:18%;
+    font-size: 1.35em;
+}
+
+.desc1{
+    position: absolute;
+    bottom: 56%;
+    left:55%;
+   
+}
+
+.desc2{
+    position: absolute;
+    bottom: 60%; 
+    left:74.3%;
+    
+}
+.desc3{
+    position: absolute;
+    bottom: 8%;
+    left:54%;
+    padding: 5px;
+}
+
+.desc4{
+    position: absolute;
+    left: 76%;
+    bottom: 10%;
+    padding: 5px;
+}
+
+.highlight h3{
+    font-size: 1.2em ;
+}
+
+.highlight p{
+    font-size: .8em ;
+}
+
+.section3{
+    width: 100%;
+    height: 2450px;
+}
+
+.section{
+    width: 100%;
+    height: 800px;
+    margin-left: 10px;
+}
+
+.section .subsection{
+    position: relative;
+    width:100%;
+    height: 750px;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+}
+
+.section .subsection h2{
+    position: absolute;
+    font-size: 3em;
+    left: 44%;
+    top:5%
+}
+.section .subsection h1{
+    position: absolute;
+    font-size: 3em;
+    bottom:14%;
+    left:32%;
+}
+
+.section .subsection p{
+    position: absolute;
+    font-size: 1.1em;
+    bottom:8%;
+    left:41%;
+}
+.section .subsection .buy{
+    position: absolute;
+    font-size: 1.2em;
+    bottom:2%;
+    left:46%;
+
+}
+.section .subsection .learn{
+    position: absolute;
+    font-size: 1.1em;
+    bottom:-3%;
+    left:45.5%;
+}
+/* subsection2 */
+.section .subsection2{
+    position: relative;
+    width:100%;
+    height: 750px;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+}
+.section .subsection2 h2{
+    position: absolute;
+    font-size: 3em;
+    left: 42.5%;
+    top:5%
+}
+.section .subsection2 h1{
+    position: absolute;
+    font-size: 3em;
+    bottom:14%;
+    left:39%;
+}
+
+.section .subsection2 p{
+    position: absolute;
+    font-size: 1.1em;
+    bottom:8%;
+    left:39%;
+}
+.section .subsection2 .buy{
+    position: absolute;
+    font-size: 1.2em;
+    bottom:2%;
+    left:46%;
+
+}
+/* subsection 3 */
+.section .subsection3{
+    position: relative;
+    width:100%;
+    height: 750px;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+}
+.section .subsection3 h2{
+    position: absolute;
+    font-size: 3em;
+    left: 36%;
+    top:5%
+}
+.section .subsection3 h1{
+    position: absolute;
+    font-size: 3em;
+    bottom:14%;
+    left:35%;
+}
+
+.section .subsection3 p{
+    position: absolute;
+    font-size: 1.1em;
+    bottom:8%;
+    left:35%;
+}
+.section .subsection3 .buy{
+    position: absolute;
+    font-size: 1.2em;
+    bottom:2%;
+    left:46%;
+
+}
+.section .buy,
+.section .learn{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.section .buy:hover{
+    border-radius: 20px;
+    background: black;
+    color: #f4f4f4;
+}
+
+footer{
+    width:100%;
+    height: 140px;
+    background: rgba(219, 219, 219, 0.368);
+}
+
+footer .copy{
+    width:100%;
+    height:60px;
+    padding: 10px;
+    font-size: .85em;
+}
+
+footer .copy p{
+    padding: 10px;
+}
+hr{
+    color: #e20707;
+    width: 99%;
+}
+.soci{
+    display: flex;
+    width: 100%;
+    height: 25px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+   
+   
+}
+
+
+.soci ul{
+    display: inline-flex;
+    list-style: none;
+    align-items: center;
+}
+
+.soci ul li{
+    padding-left:30px ;
+    font-size: .9em;
+    color: #3c3b3b;
+}
+
+.soci ul li i{
+    color: rgb(0, 0, 0);
+    font-size: 1.6em;
+}
+
+.somethingelse{
+    width: 100%;
+    height: 400px;
+}
+
+.searchbox{
+    display: flex;
+    width:100%;
+    height:56px;
+    align-items: center;
+    justify-content: center;
+}
+.searchbox input{
+    width:400px;
+    height: 50px;
+    border-radius: 30px;
+    padding-left: 20px;
+}
+.tags{
+    display: flex;
+    width:100%;
+    height:56px;
+    align-items: center;
+    justify-content: center;
+}
+.tags ul{
+    display: flex;
+}
+.tags ul li{
+   border:#3c3b3b;
+
+}
